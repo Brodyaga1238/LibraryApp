@@ -310,5 +310,10 @@ namespace LibraryDesktopApp
             List<ReturnedBook> returnedBooks = library.GetReturnedBooks();
             lbReturnedBooks.DataSource = returnedBooks;
         }
+
+        private void EndProgramClick(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -41,6 +41,7 @@
             this.btnGetAllReaders = new System.Windows.Forms.Button();
             this.btnGetIssuedBooks = new System.Windows.Forms.Button();
             this.btnGetReturnedBooks = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAddBook
@@ -91,7 +92,7 @@
             this.lbBooks.FormattingEnabled = true;
             this.lbBooks.Location = new System.Drawing.Point(12, 87);
             this.lbBooks.Name = "lbBooks";
-            this.lbBooks.Size = new System.Drawing.Size(360, 95);
+            this.lbBooks.Size = new System.Drawing.Size(400, 95);
             this.lbBooks.TabIndex = 16;
             // 
             // lblBooks
@@ -106,7 +107,7 @@
             // btnAddReader
             // 
             this.btnAddReader.BackColor = System.Drawing.Color.Beige;
-            this.btnAddReader.Location = new System.Drawing.Point(357, 17);
+            this.btnAddReader.Location = new System.Drawing.Point(413, 11);
             this.btnAddReader.Name = "btnAddReader";
             this.btnAddReader.Size = new System.Drawing.Size(150, 23);
             this.btnAddReader.TabIndex = 14;
@@ -116,7 +117,7 @@
             // 
             // tbReaderName
             // 
-            this.tbReaderName.Location = new System.Drawing.Point(513, 20);
+            this.tbReaderName.Location = new System.Drawing.Point(569, 15);
             this.tbReaderName.Name = "tbReaderName";
             this.tbReaderName.Size = new System.Drawing.Size(150, 20);
             this.tbReaderName.TabIndex = 13;
@@ -124,7 +125,7 @@
             // lblReaderName
             // 
             this.lblReaderName.AutoSize = true;
-            this.lblReaderName.Location = new System.Drawing.Point(669, 27);
+            this.lblReaderName.Location = new System.Drawing.Point(734, 22);
             this.lblReaderName.Name = "lblReaderName";
             this.lblReaderName.Size = new System.Drawing.Size(29, 13);
             this.lblReaderName.TabIndex = 12;
@@ -133,15 +134,15 @@
             // lbReaders
             // 
             this.lbReaders.FormattingEnabled = true;
-            this.lbReaders.Location = new System.Drawing.Point(378, 87);
+            this.lbReaders.Location = new System.Drawing.Point(418, 87);
             this.lbReaders.Name = "lbReaders";
-            this.lbReaders.Size = new System.Drawing.Size(360, 95);
+            this.lbReaders.Size = new System.Drawing.Size(400, 95);
             this.lbReaders.TabIndex = 11;
             // 
             // lblReaders
             // 
             this.lblReaders.AutoSize = true;
-            this.lblReaders.Location = new System.Drawing.Point(378, 71);
+            this.lblReaders.Location = new System.Drawing.Point(418, 71);
             this.lblReaders.Name = "lblReaders";
             this.lblReaders.Size = new System.Drawing.Size(55, 13);
             this.lblReaders.TabIndex = 10;
@@ -163,7 +164,7 @@
             this.lbIssuedBooks.FormattingEnabled = true;
             this.lbIssuedBooks.Location = new System.Drawing.Point(12, 241);
             this.lbIssuedBooks.Name = "lbIssuedBooks";
-            this.lbIssuedBooks.Size = new System.Drawing.Size(360, 95);
+            this.lbIssuedBooks.Size = new System.Drawing.Size(400, 95);
             this.lbIssuedBooks.TabIndex = 8;
             // 
             // lblIssuedBooks
@@ -178,7 +179,7 @@
             // btnReturnBook
             // 
             this.btnReturnBook.BackColor = System.Drawing.Color.Beige;
-            this.btnReturnBook.Location = new System.Drawing.Point(378, 188);
+            this.btnReturnBook.Location = new System.Drawing.Point(418, 188);
             this.btnReturnBook.Name = "btnReturnBook";
             this.btnReturnBook.Size = new System.Drawing.Size(150, 23);
             this.btnReturnBook.TabIndex = 6;
@@ -189,15 +190,15 @@
             // lbReturnedBooks
             // 
             this.lbReturnedBooks.FormattingEnabled = true;
-            this.lbReturnedBooks.Location = new System.Drawing.Point(378, 241);
+            this.lbReturnedBooks.Location = new System.Drawing.Point(418, 241);
             this.lbReturnedBooks.Name = "lbReturnedBooks";
-            this.lbReturnedBooks.Size = new System.Drawing.Size(360, 95);
+            this.lbReturnedBooks.Size = new System.Drawing.Size(400, 95);
             this.lbReturnedBooks.TabIndex = 5;
             // 
             // lblReturnedBooks
             // 
             this.lblReturnedBooks.AutoSize = true;
-            this.lblReturnedBooks.Location = new System.Drawing.Point(378, 225);
+            this.lblReturnedBooks.Location = new System.Drawing.Point(418, 225);
             this.lblReturnedBooks.Name = "lblReturnedBooks";
             this.lblReturnedBooks.Size = new System.Drawing.Size(117, 13);
             this.lblReturnedBooks.TabIndex = 4;
@@ -210,7 +211,7 @@
             this.btnGetAllBooks.Name = "btnGetAllBooks";
             this.btnGetAllBooks.Size = new System.Drawing.Size(306, 23);
             this.btnGetAllBooks.TabIndex = 3;
-            this.btnGetAllBooks.Text = "Получить все книги";
+            this.btnGetAllBooks.Text = "Получить список всех книг";
             this.btnGetAllBooks.UseVisualStyleBackColor = false;
             this.btnGetAllBooks.Click += new System.EventHandler(this.btnGetAllBooks_Click);
             // 
@@ -221,38 +222,50 @@
             this.btnGetAllReaders.Name = "btnGetAllReaders";
             this.btnGetAllReaders.Size = new System.Drawing.Size(306, 23);
             this.btnGetAllReaders.TabIndex = 2;
-            this.btnGetAllReaders.Text = "Получить всех читателей";
+            this.btnGetAllReaders.Text = "Получить список всех читателей\r\n";
             this.btnGetAllReaders.UseVisualStyleBackColor = false;
             this.btnGetAllReaders.Click += new System.EventHandler(this.btnGetAllReaders_Click);
             // 
             // btnGetIssuedBooks
             // 
             this.btnGetIssuedBooks.BackColor = System.Drawing.Color.Beige;
-            this.btnGetIssuedBooks.Location = new System.Drawing.Point(378, 342);
+            this.btnGetIssuedBooks.Location = new System.Drawing.Point(418, 342);
             this.btnGetIssuedBooks.Name = "btnGetIssuedBooks";
             this.btnGetIssuedBooks.Size = new System.Drawing.Size(306, 23);
             this.btnGetIssuedBooks.TabIndex = 1;
-            this.btnGetIssuedBooks.Text = "Получить выданные книги";
+            this.btnGetIssuedBooks.Text = "Получить список выданных книг";
             this.btnGetIssuedBooks.UseVisualStyleBackColor = false;
             this.btnGetIssuedBooks.Click += new System.EventHandler(this.btnGetIssuedBooks_Click);
             // 
             // btnGetReturnedBooks
             // 
             this.btnGetReturnedBooks.BackColor = System.Drawing.Color.Beige;
-            this.btnGetReturnedBooks.Location = new System.Drawing.Point(378, 371);
+            this.btnGetReturnedBooks.Location = new System.Drawing.Point(418, 371);
             this.btnGetReturnedBooks.Name = "btnGetReturnedBooks";
             this.btnGetReturnedBooks.Size = new System.Drawing.Size(306, 23);
             this.btnGetReturnedBooks.TabIndex = 0;
-            this.btnGetReturnedBooks.Text = "Получить возвращенные книги";
+            this.btnGetReturnedBooks.Text = "Получить список возвращённых книг\r\n";
             this.btnGetReturnedBooks.UseVisualStyleBackColor = false;
             this.btnGetReturnedBooks.Click += new System.EventHandler(this.btnGetReturnedBooks_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Location = new System.Drawing.Point(734, 342);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 52);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Закрыть";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.EndProgramClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(740, 629);
+            this.ClientSize = new System.Drawing.Size(828, 403);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnGetReturnedBooks);
             this.Controls.Add(this.btnGetIssuedBooks);
             this.Controls.Add(this.btnGetAllReaders);
@@ -280,6 +293,8 @@
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.Button button1;
 
         private System.Windows.Forms.Button btnAddBook;
         private System.Windows.Forms.TextBox tbBookTitle;
