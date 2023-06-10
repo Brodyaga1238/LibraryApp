@@ -141,7 +141,7 @@
             // lblReaders
             // 
             this.lblReaders.AutoSize = true;
-            this.lblReaders.Location = new System.Drawing.Point(357, 71);
+            this.lblReaders.Location = new System.Drawing.Point(378, 71);
             this.lblReaders.Name = "lblReaders";
             this.lblReaders.Size = new System.Drawing.Size(55, 13);
             this.lblReaders.TabIndex = 10;
